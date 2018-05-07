@@ -36,21 +36,24 @@ def candidates(sudoku, x, y):
 def solve_rule(sudoku):
     """
     solves the sudoku using a rule-based approach
-    returns a solved sudoku
+    returns a solved sudoku if possible
+    returns a near-solved sudoku otherwise
     """
     pass
 
 def solve_dfs_it(sudoku):
     """
     solves the sudoku using an iterative DFS approach
-    returns a solved sudoku
+    returns a solved sudoku if possible
+    returns a near-solved sudoku otherwise
     """
     pass
 
 def solve_dfs_rec(sudoku):
     """
     solves the sudoku using a recursive DFS approach
-    returns a solved sudoku
+    returns a solved sudoku if possible
+    returns a near-solved sudoku otherwise
     """
     pass
 
@@ -58,7 +61,8 @@ def solve_dfs_gen(sudoku):
     """
     solves the sudoku using an iterative DFS approach
         using Python generators]
-    returns a solved sudoku
+    returns a solved sudoku if possible
+    returns a near-solved sudoku otherwise
     """
     pass
 
